@@ -1,0 +1,17 @@
+---
+title: "Data Vis"
+author: "Brian Forristal"
+date: "11/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x = rnorm(1000, 0, 1)
+y = rnorm(1000, 1.5, 0.2)
+plot(x, y)
+```
+
